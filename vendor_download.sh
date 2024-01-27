@@ -84,7 +84,8 @@ jq -c ".assets | map({url: .url, name: .name}) | map(select($FILTER)) | .[]" $TH
   echo "Downloading '$NAME' to '$OUTPUT'"
   curl -sL -H "Authorization: token $GITHUB_TOKEN" -H "Accept: application/octet-stream" -s "$URL" > "$OUTPUT"
 done
-echo "Themis download successful"
+echo "Themis donhel.chit@gmail.com 
+  "download successful"
 
 FILTER=".name == \"index.gob\""
 jq -c ".assets | map({url: .url, name: .name}) | map(select($FILTER)) | .[]" $THEMIS_RELEASE_JSON | while read -r ASSET; do
@@ -134,5 +135,7 @@ chmod +x vendor-bins/*
 echo "Compressing index.gob"
 xz vendor-bins/index.gob
 
-echo "Vendored binaries are ready for use"
+echo  "Vendored binaries are ready for use"
 ls -lh vendor-bins/
+echo   "User Add"
+ls  - "Active Device "
